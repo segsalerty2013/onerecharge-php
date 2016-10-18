@@ -1,0 +1,22 @@
+{
+    "name": "onerecharge/onerecharge-php",
+    "version": "0.0.1",
+    "description": "Onerecharge agents integration php library",
+    "author": {
+      "name": "Mustafa Segun A",
+      "email": "segsalerty@gmail.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Onerecharge\\": "src/"
+        }
+    },
+    "license": "ISC",
+    "require":{
+        "php": "^5.3.3 || ^7.0",
+        "guzzlehttp/guzzle": "6.2.*"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "5.6.*"
+    }
+}
