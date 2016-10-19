@@ -6,4 +6,4 @@ php:
   - nightly
 install: 
   - composer update
-script: phpunit --verbose tests/OnerechargeTest
+script: phpunit tests/OnerechargeTest
